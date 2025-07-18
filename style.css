@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family:"Montserrat", sans-serif; 
+    width:99vw ;   
+}
+
+
+header{
+ display:flex ;
+ justify-content:space-between ;
+ align-items: center ;
+}
+  .логотипчик{
+   height:6em ;
+
+  }
+.чел{
+    height:2em ;
+
+}
+
+
+a{
+color: rgb(0, 0, 0);
+text-decoration:none ;
+
+}
+
+.pon{
+display:flex;
+justify-content:space-around ;
+align-items: center;
+width: 40%;
+
+}
+.ronaldik{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width:15% ;
+}
+
+
+.rty{
+border:1px solid black ;
+border-radius:8px ;
+padding:7px ;
+
+}
+.rty:hover{
+    background-color:yellow ;
+    color:blue;
+    padding:20px ;
+}
+
+.stap{
+display:grid ;
+grid-template-columns:repeat(3,1fr) ;
+grid-template-rows: repeat(2,1fr);
+grid-template-areas: 
+ "a b c"
+ "d e e";
+ gap:1px ;
+ background-color:grey ;
+ border-radius:20px ;
+ box-shadow:0 4px 20px 0 rgba(0,0,0, 0.2) ;
+ overflow:hidden ;
+}
+
+.sall1{grid-area:a}
+.sall2{grid-area:b}
+.sall3{grid-area:c}
+.sall4{grid-area:d}
+.sall5{grid-area:e}
+
+.stap div{
+  background-color: white;
+         display:flex;
+         flex-direction:column;
+         justify-content: center;
+         align-items: center;
+
+}
+ .свят{
+    height:6em ;
+
+ }
+
+ .im{
+    display:flex;
+    justify-content:space-around ;
+    align-items: baseline;
+    width: 40%;
+    
+    }
+
+footer{
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 100px
+}
+
+.я{
+height:20em ;
+
+}
+
+.чо{
+height:15em ;
+border: 7px solid yellow;
+
+}
+
+.нет{
+height:20em ;
+
+}
+
+.imk{
+display: flex;
+justify-content: space-around;
+
+
+}
